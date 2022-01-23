@@ -10,6 +10,7 @@ WORKDIR /app
 COPY  --chown=appuser start.sh /app/start.sh
 RUN chmod -R 777 /app/start.sh
 
+#Ahora se ejecuta el script
 
 # Run the application
 CMD ["/bin/bash", "/app/start.sh"]
