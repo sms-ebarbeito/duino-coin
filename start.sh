@@ -34,8 +34,8 @@ algorithm = DUCO-S1
 language = english
 soc_timeout = 45
 report_sec = 60
-discord_rp = y" > 'Duino-Coin PC Miner 3.0'/Settings.cfg
+discord_rp = y" > /app/'Duino-Coin PC Miner 3.0'/Settings.cfg
 
 # Start the miner
-/app/PC_Miner
+python3 PC_Miner.py
 exit
