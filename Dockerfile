@@ -1,5 +1,5 @@
 # Specify the parent image from which we build
-FROM python:3
+FROM python:3.8
 
 USER root
 
